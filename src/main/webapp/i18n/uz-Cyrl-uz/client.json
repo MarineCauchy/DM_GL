@@ -1,0 +1,31 @@
+{
+  "coopcycleApp": {
+    "client": {
+      "home": {
+        "title": "Clients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Янги Client қўшиш",
+        "createOrEditLabel": "Clientни таҳрирлаш",
+        "notFound": "No Clients found"
+      },
+      "created": "Client {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Client сақланди.",
+      "deleted": "{{ param }}- Client ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Clientни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Client"
+      },
+      "id": "ID",
+      "idC": "Id C",
+      "nomC": "Nom C",
+      "prenomC": "Prenom C",
+      "adresseC": "Adresse C",
+      "emailC": "Email C",
+      "telephoneC": "Telephone C",
+      "produit": "Produit",
+      "commande": "Commande"
+    }
+  }
+}

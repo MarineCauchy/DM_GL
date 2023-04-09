@@ -1,0 +1,30 @@
+{
+  "coopcycleApp": {
+    "commande": {
+      "home": {
+        "title": "Commandes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Янги Commande қўшиш",
+        "createOrEditLabel": "Commandeни таҳрирлаш",
+        "notFound": "No Commandes found"
+      },
+      "created": "Commande {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Commande сақланди.",
+      "deleted": "{{ param }}- Commande ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Commandeни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Commande"
+      },
+      "id": "ID",
+      "idCo": "Id Co",
+      "prixTotal": "Prix Total",
+      "date": "Date",
+      "adresseLivraison": "Adresse Livraison",
+      "client": "Client",
+      "produit": "Produit",
+      "livreur": "Livreur"
+    }
+  }
+}

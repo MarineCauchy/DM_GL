@@ -1,0 +1,57 @@
+entity Client {
+    idC Integer required unique
+    nomC String required maxlength(20) pattern(/^[A-Z][a-z]+$/) 
+    prenomC String required maxlength(20) pattern(/^[A-Z][a-z]+$/) 
+    adresseC String required maxlength(100)
+    emailC String required maxlength(50) pattern(/[a-zA-Z0-9.]+@[a-zA-Z0-9.]+.[a-z]+/)
+    telephoneC String required pattern(/(+\d+)?[0-9 ]+/)
+}
+
+entity Commande {
+    idCo Integer required
+    prixTotal Float required min(0)
+    date Instant required
+    adresseLivraison String required
+}
+
+entity Restaurant {
+    nom String required
+    adresse String required maxlength(100)
+}
+
+entity Produit {
+    nom String required
+    prix Float required min(0)
+}
+
+entity Livreur {
+    idL Integer required unique 
+    nomL String required maxlength(50) pattern(/^[A-Z][a-z]+$/) 
+    prenomL String required maxlength(50) pattern(/^[A-Z][a-z]+$/) 
+    telephoneL String required pattern(/(+\d+)?[0-9 ]+/)
+}
+
+entity Association{
+    idA Integer required unique
+    nomA String required
+}
+
+relationship OneToOne {
+    Produit to Commande
+}
+
+relationship OneToMany {
+    Association to Livreur,
+    Client to Produit,
+    Restaurant to Produit,
+    Livreur to Commande,
+    Client to Produit
+}
+
+relationship ManyToOne {
+    Commande to Client
+}
+
+
+dto * with mapstruct
+

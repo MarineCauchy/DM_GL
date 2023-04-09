@@ -1,0 +1,30 @@
+{
+  "coopcycleApp": {
+    "commande": {
+      "home": {
+        "title": "Commandes",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Commande",
+        "createOrEditLabel": "Lisa või muuda Commande",
+        "notFound": "Ei leitud ühtegi Commandes"
+      },
+      "created": "Uus Commande on loodud identifikaatoriga {{ param }}",
+      "updated": "Commande identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Commande identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Commande {{ id }}?"
+      },
+      "detail": {
+        "title": "Commande"
+      },
+      "id": "ID",
+      "idCo": "Id Co",
+      "prixTotal": "Prix Total",
+      "date": "Date",
+      "adresseLivraison": "Adresse Livraison",
+      "client": "Client",
+      "produit": "Produit",
+      "livreur": "Livreur"
+    }
+  }
+}

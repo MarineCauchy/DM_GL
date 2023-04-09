@@ -1,0 +1,30 @@
+{
+  "coopcycleApp": {
+    "commande": {
+      "home": {
+        "title": "Commandes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Стварыць новы Commande",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Commande",
+        "notFound": "No Commandes found"
+      },
+      "created": "Новы Commande створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Commande абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Commande выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Commande {{ id }}?"
+      },
+      "detail": {
+        "title": "Commande"
+      },
+      "id": "ID",
+      "idCo": "Id Co",
+      "prixTotal": "Prix Total",
+      "date": "Date",
+      "adresseLivraison": "Adresse Livraison",
+      "client": "Client",
+      "produit": "Produit",
+      "livreur": "Livreur"
+    }
+  }
+}
